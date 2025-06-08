@@ -1,5 +1,4 @@
---// CUSTOM DRAWING
-
+--// 1 
 local drawing = {} do
     local services = setmetatable({}, {
         __index = function(self, key)
@@ -1404,7 +1403,7 @@ function library:SetTheme(theme)
 end
 
 function library:GetThemes()
-    local themes = {"Default", "Midnight", 'Gamesense'}
+    local themes = {"Default", "Midnight", 'Gamesense', 'Fatality'}
 
     local folderpath = string.format("%s//themes", self.folder)
 
